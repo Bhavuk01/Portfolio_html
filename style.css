@@ -76,5 +76,10 @@ img {
 
 #about{
     width: 100%;
-    height: fit-content;
+    height: 100px;
+
+}
+
+#about h1{
+    margin-top: 255px;
 }
