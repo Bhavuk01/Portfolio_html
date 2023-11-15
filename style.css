@@ -45,6 +45,7 @@ nav{
     width: 500px;
     height:500px;
     margin-left: 1000px;
+    margin-top: 150px;
 }
 
 
@@ -63,5 +64,17 @@ img {
 }
 
 .left-side {
-    margin-left: 100px;
+    margin-left: 150px;
+    float: left;
+    margin-top: 200px;
+    font-size: x-large;
+}
+
+.left-side h1 span{
+    color: #a31010;
+}
+
+#about{
+    width: 100%;
+    height: fit-content;
 }
