@@ -5,7 +5,7 @@
 }
 
 html, body {
-    height: 100%;
+    height: 720px;
     margin: 0;
 }
 
@@ -13,12 +13,14 @@ body {
     background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     background-repeat: no-repeat;
     display: flex;
+    
 }
 
 .container ul li{
     display: inline-block;
     margin-left: 50px;
     font-size: large;
+    margin-bottom: 0%;
 }
 
 
@@ -34,7 +36,8 @@ nav{
 
 #header{
     width: 100%;
-    height: fit-content;
+    height: 0px;
+    margin-bottom: 0%;
 
 }
 
@@ -67,7 +70,7 @@ nav{
 .left-side {
     margin-left: 150px;
     float: left;
-    margin-top: 200px;
+    margin-top: 90px;
     font-size: x-large;
 }
 
@@ -76,6 +79,7 @@ nav{
 }
 
 #about .row{
+    margin-top: 0%;
     background-color: #41dfff;
     padding: 80px;
     display: flex;
@@ -89,6 +93,11 @@ nav{
     margin-bottom: 5000px;
 }
 
+.main{
+    height: 500px;
+    padding-bottom: 00px;
+}
 
-
-
+#about{
+    background-color: #004cff;
+}
