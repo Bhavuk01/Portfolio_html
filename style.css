@@ -16,6 +16,12 @@ body {
     
 }
 
+.navbar {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 .container ul li{
     display: inline-block;
     margin-left: 50px;
@@ -26,6 +32,7 @@ body {
 
 nav ul li a{
     text-decoration: none;
+
 }
 
 nav{
@@ -131,23 +138,131 @@ nav{
 #skills .container{
     height: 720px;
     width: 100%;
-    background-color: #c777b9;
+    background-color: #c777b861;
     
 }
 
 #education .container{
     height: 720px;
     width: 100%;
-    background-color: darkkhaki;
+    background-color: rgba(189, 183, 107, 0.418);
 }
 
 #contact .container{
     height: 720px;
     width: 100%;
-    background-color: lawngreen;
+    background-color: rgba(126, 252, 0, 0.377);
 }
 
+.skill {
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .skill-level {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    color: #fff;
+  }
+  
+  /* Define different skill levels with colors */
+  .skill-level.advanced {
+    background-color: #4CAF50;
+  }
+  
+  .skill-level.intermediate {
+    background-color: #2196F3;
+  }
+  
+  .skill-level.beginner {
+    background-color: #f44336;
+  }
 
 
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #education h1 {
+    color: #333;
+    padding-top: 100px;
+  }
+  
+  .education-entry {
+    background-color: #fff;
+    padding: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 100px;
+  }
+  
+  .school {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .date {
+    color: #777;
+  }
 
-
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    padding-top: 50px;
+  }
+  
+  .contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 150px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
