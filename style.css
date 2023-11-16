@@ -36,8 +36,8 @@ nav{
 
 #header{
     width: 100%;
-    height: 0px;
-    margin-bottom: 0%;
+    
+    
 
 }
 
@@ -84,20 +84,23 @@ nav{
     padding: 80px;
     display: flex;
     justify-content: space-between;
-    padding-top: 400px;
+    padding-top: 350px;
     padding-bottom: 220px;
 }
 
-#about row about-col-2{
-    background-color: #004cff;
-    margin-bottom: 5000px;
+#about .row .about-col-2{
+    background-color: #004cff46;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    margin-top: 0px;
+}
+.home{
+    height: 720px;
+    padding-bottom: 0px;
+    
 }
 
-.main{
-    height: 500px;
-    padding-bottom: 00px;
-}
 
-#about{
-    background-color: #004cff;
-}
+
